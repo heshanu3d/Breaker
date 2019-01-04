@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450C12CE21DF8A0C0054B844 /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 450C12CC21DF8A0C0054B844 /* Trail.scnp */; };
 		453A4D9521DBC75D00A8F864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A4D9421DBC75D00A8F864 /* AppDelegate.swift */; };
 		453A4D9921DBC75D00A8F864 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A4D9821DBC75D00A8F864 /* GameViewController.swift */; };
 		453A4D9C21DBC75D00A8F864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453A4D9A21DBC75D00A8F864 /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450C12CC21DF8A0C0054B844 /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
+		450C12D021DF8CEB0054B844 /* par.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = par.png; sourceTree = "<group>"; };
 		453A4D9121DBC75D00A8F864 /* Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453A4D9421DBC75D00A8F864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		453A4D9821DBC75D00A8F864 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 		453A4D9321DBC75D00A8F864 /* Breaker */ = {
 			isa = PBXGroup;
 			children = (
+				450C12D021DF8CEB0054B844 /* par.png */,
 				453A4DAA21DBC9B600A8F864 /* GameUtils */,
 				453A4D9421DBC75D00A8F864 /* AppDelegate.swift */,
 				453A4D9821DBC75D00A8F864 /* GameViewController.swift */,
@@ -72,6 +76,7 @@
 				453A4D9D21DBC75D00A8F864 /* Assets.xcassets */,
 				453A4D9F21DBC75D00A8F864 /* LaunchScreen.storyboard */,
 				453A4DA221DBC75D00A8F864 /* Info.plist */,
+				450C12CC21DF8A0C0054B844 /* Trail.scnp */,
 			);
 			path = Breaker;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450C12CE21DF8A0C0054B844 /* Trail.scnp in Resources */,
 				453A4DA121DBC75D00A8F864 /* LaunchScreen.storyboard in Resources */,
 				453A4D9E21DBC75D00A8F864 /* Assets.xcassets in Resources */,
 				453A4DA921DBC99500A8F864 /* Breaker.scnassets in Resources */,
